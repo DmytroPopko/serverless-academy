@@ -2,5 +2,16 @@
   "dependencies": {
     "commander": "^11.1.0",
     "inquirer": "^9.2.11"
-  }
+  },
+  "name": "serverless-academy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
