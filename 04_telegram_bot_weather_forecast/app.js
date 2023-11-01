@@ -52,7 +52,7 @@ const startBot = () => {
           const response = await axios.get();
           await bot.sendMessage(
             msg.chat.id,
-            response.data.list[0].weather[0].main
+            response.data.list[1].weather[0].main
           );
         } catch (e) {
           console.log(e);
@@ -62,7 +62,7 @@ const startBot = () => {
           const response = await axios.get();
           await bot.sendMessage(
             msg.chat.id,
-            response.data.list[1].weather[0].main
+            response.data.list[2].weather[0].main
           );
         } catch (e) {
           console.log(e);
